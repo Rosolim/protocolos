@@ -5,17 +5,7 @@
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
 	<description>Consulta de protocolos para os jogos olímpicos 2016</description>
-	<servlet>
-		<servlet-name>LogoutServlet</servlet-name>
-		<display-name>LogoutServlet</display-name>
-		<description></description>
-		<servlet-class>mvc.servlet.LogoutServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>LogoutServlet</servlet-name>
-		<url-pattern>/LogoutServlet</url-pattern>
-	</servlet-mapping>
 	<session-config>
-		<session-timeout>1</session-timeout>
+		<session-timeout>10</session-timeout>
 	</session-config>
 </web-app>

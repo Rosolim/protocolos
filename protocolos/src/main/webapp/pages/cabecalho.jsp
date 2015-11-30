@@ -1,12 +1,12 @@
 <div class="jumbotron">
-	<div id="simbol">
+	<!-- <div id="simbol">
 		<img src="../img/COpEsp.png">
 	</div>
 	<div id="simbol2">
 		<img src="../img/COpEsp.png">
-	</div>
+	</div> -->
 	<div class="simbol">
-		<h1>Centro Integrado de Combate ao Terrorismo</h1>
+		<h1>Centro Integrado de Enfrentamento ao Terrorismo</h1>
 		<br>
 	</div>
 	<div class="simbol">

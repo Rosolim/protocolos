@@ -1,4 +1,4 @@
-<%@include file="head.jsp" %>
+<%@include file="head.jsp"%>
 
 <body>
 
@@ -15,13 +15,14 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand topnav" href="index.jsp#">Centro
-					Integrado de Combate ao Terrorismo</a>
+					Integrado de Enfrentamento ao Terrorismo</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.jsp">Home</a></li>
+					<li><a href="#protocolos">Pesquisar</a></li>
 					<li><a href="listProt.jsp">Listar Protocolos</a></li>
 					<li><a href="logout">Logout</a></li>
 				</ul>
@@ -41,13 +42,14 @@
 				<div class="col-lg-12">
 					<div class="intro-message">
 						<h1>CIET</h1>
-						<h3 align="center">Centro Integrado de Combate ao Terrorismo</h3>
+						<h3 align="center">Centro Integrado de Enfrentamento ao Terrorismo</h3>
 						<hr class="intro-divider">
 					</div>
 				</div>
 			</div>
 
 		</div>
+		<a name="protocolos"></a>
 		<!-- /.container -->
 		<section id="services" class="services bg-primary">
 			<div class="container">
@@ -106,6 +108,28 @@
 			<!-- /.container -->
 		</section>
 	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="list-inline">
+						<li><a href="index.jsp#">Home</a></li>
+						<li class="footer-menu-divider">&sdot;</li>
+						<li><a href="listProt.jsp">Listar Protocolos</a></li>
+						<li class="footer-menu-divider">&sdot;</li>
+						<li><a href="#protocolos">Protocolos</a></li>
+						<li class="footer-menu-divider">&sdot;</li>
+						<li><a href="logout">Logout</a></li>
+					</ul>
+					<p class="copyright text-muted small">Copyright &copy; Exército
+						Brasileiro - Comando de Operações Especiais - 2015. All Rights
+						Reserved.</p>
+					<p class="copyright text-muted small">By 1º Tenente Gerson
+						Nunes ROSOLIM</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<!-- /.intro-header -->
 	<!-- jQuery -->
 	<script src="../js/jquery.js"></script>
