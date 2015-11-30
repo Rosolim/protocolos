@@ -37,11 +37,11 @@ public class filterLogin implements Filter {
 			// está logado.
 			Boolean usuarioLogado = (Boolean) session.getAttribute("usuarioLogado");
 			if (usuarioLogado == null || usuarioLogado == false) {
-				if (req.getRequestURI().endsWith("/pages/*.jsp")) {
-					resp.sendRedirect("login");
-				}
-				else{
+				if (req.getRequestURI().endsWith("/protocolos/")
+						|| req.getRequestURI().endsWith("/protocolos/index.jsp")) {
 					resp.sendRedirect("pages/login");
+				} else {
+					resp.sendRedirect("login");
 				}
 			} else {
 				chain.doFilter(request, response);

@@ -14,6 +14,7 @@
 	</div>
 	<ol class="breadcrumb">
 		<li class="active"><a href="index.jsp">Home</a></li>
-		<li><a href="question.jsp">Pesquisar</a></li>
+		<li><a href="listProt.jsp">Listar protocolos</a></li>
+		<li><a href="logout">Logout</a></li>
 	</ol>
 </div>
