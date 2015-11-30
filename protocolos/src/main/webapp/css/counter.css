@@ -1,0 +1,9 @@
+body {
+    counter-reset: question;
+}
+
+.question::before {
+	font-weight: bold;
+    counter-increment: question;
+    content: "Questão " counter(question) ": ";
+}

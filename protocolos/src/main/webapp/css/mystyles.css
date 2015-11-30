@@ -1,0 +1,16 @@
+#simbol img {
+  float: left;
+  width: 15%;
+}
+#simbol2 img {
+	float: right;
+	width: 15%;
+}
+
+.simbol p {
+	text-align: center;
+}
+
+.simbol h1 {
+	text-align: center;
+}
